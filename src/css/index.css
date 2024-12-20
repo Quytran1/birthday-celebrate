@@ -405,11 +405,12 @@ body, html{
 }
 
 .second--canvas::before {
-	background-image: url('src/images/pic1congai.png');
+	background-image: url('birthday-web/src/images/pic1congai_resize.jpg');
 
 }
+
 .second--canvas::after {
-	background-image: url('src/images/pic2congai.jpg');
+	background-image: url('birthday-web/src/images/congai3_resize.jpg');
 	animation-delay: 2s;
 }
 
@@ -541,7 +542,7 @@ body, html{
 	position: absolute;
 	left:0;
 	top:0;
-	background:url("src/images/congai3_resize.jpg") center / cover repeat;
+	background:url("birthday-web/src/images/congai2_clear_resize.jpg") center / cover repeat;
 	opacity: 0;
 	animation:thirdCanvasBackground 500ms ease 3s 1 forwards;
 }
@@ -606,7 +607,6 @@ body, html{
 	background:#1080f2;
 	animation-delay:700ms;
 }
-
 
 
 @keyframes thirdCanvasIntro{
@@ -736,8 +736,8 @@ body, html{
 }
 
 .third--canvas > img#gf2{
-	left:45%;
-	bottom:2em;
+	left:40%;
+	bottom:1.5em;
 	animation-delay: 4800ms;
 }
 
