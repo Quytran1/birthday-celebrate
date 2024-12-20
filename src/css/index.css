@@ -91,7 +91,7 @@ body, html{
 	top:0;
 	width:0px;
 	height:2px;
-	animation:firstSlideBorderOne 300ms ease 650ms 1 forwards;
+	animation:firstSlideBorderOne 1000ms ease 650ms 1 forwards;
 }
 
 .first--slide span.right{
@@ -99,7 +99,7 @@ body, html{
 	top:0;
 	width:2px;
 	height: 0;
-	animation:firstSlideBorderTwo 300ms ease 950ms 1 forwards;
+	animation:firstSlideBorderTwo 1000ms ease 950ms 1 forwards;
 }
 
 .first--slide span.bottom{
@@ -107,7 +107,7 @@ body, html{
 	bottom:0;
 	width:0px;
 	height: 2px;
-	animation:firstSlideBorderOne 300ms ease 1250ms 1 forwards;
+	animation:firstSlideBorderOne 1000ms ease 1250ms 1 forwards;
 }
 
 .first--slide span.left{
@@ -115,7 +115,7 @@ body, html{
 	bottom:0;
 	height: 0;
 	width: 2px;
-	animation:firstSlideBorderTwo 300ms ease 1550ms 1 forwards;
+	animation:firstSlideBorderTwo 1000ms ease 1550ms 1 forwards;
 }
 
 .slide--content::after{
@@ -130,7 +130,7 @@ body, html{
 	top:-75px;
 	transform:scale(0);
 	animation: firstSlideOverlayOne 600ms ease 3700ms 1 forwards,
-	firstSlideOverlayTwo 1000ms ease 4300ms 1 forwards;
+	firstSlideOverlayTwo 1500ms ease 5000ms 1 forwards;
 }
 
 @keyframes firstSlideTextOne{
