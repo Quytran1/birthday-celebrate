@@ -34,7 +34,7 @@ body, html{
 	right:0;
 	background:#fcbb5e;
 	z-index: 3;
-	animation:firstSlideRemove 1000ms ease 6s 1 forwards;
+	animation:firstSlideRemove 500ms ease 6s 1 forwards;
 }
 
 @keyframes firstSlideRemove{
@@ -61,7 +61,7 @@ body, html{
 
 .first--slide .slide--content h1{
 	position: relative;
-	animation: firstSlideTextOne 1000ms ease 0s 1 forwards;
+	animation: firstSlideTextOne 1000ms ease 1s 1 forwards;
 	font-size: 6em;
 	margin:0;
 	line-height: 1.2em;
