@@ -405,12 +405,12 @@ body, html{
 }
 
 .second--canvas::before {
-	background-image: url('birthday-web/src/images/pic1congai_resize.jpg');
+	background-image: url('../images/pic1congai_resize.jpg');
 
 }
 
 .second--canvas::after {
-	background-image: url('birthday-web/src/images/congai3_resize.jpg');
+	background-image: url('../images/congai3_resize.jpg');
 	animation-delay: 2s;
 }
 
@@ -542,7 +542,7 @@ body, html{
 	position: absolute;
 	left:0;
 	top:0;
-	background:url("birthday-web/src/images/congai2_clear_resize.jpg") center / cover repeat;
+	background:url("../images/congai3_resize.jpg") center / cover repeat;
 	opacity: 0;
 	animation:thirdCanvasBackground 500ms ease 3s 1 forwards;
 }
